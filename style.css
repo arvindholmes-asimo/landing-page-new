@@ -193,6 +193,7 @@ button.btn {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+    margin-top: 8%;
     /* padding:10px 0; */
 
 
@@ -643,23 +644,16 @@ address {
     }
 
     .middle-top {
-        /* display: flex; */
+      
         position: relative;
     }
 
-    .blue-bg {
-        height: 300px;
-        width: 90%;
-        margin: 50px auto;
-
-    }
+  
 
     .card {
         width: 94%;
         padding: 60px 80px;
-        margin-top: 0;
-        margin: 0;
-        margin-bottom: 55px;
+        margin:0;
     }
 
 
@@ -775,10 +769,12 @@ address {
         .middle-top-container::before {
             display: block;
             left: -5%;
+            right: -5%;
+            /* bottom: -1px; */
             content: "";
             margin: 0;
-            width: 1220px;
-            height: 295px;
+            /* width: 1220px; */
+            height: 100%;
             position: absolute;
             top: 20%;
             z-index: -2;
