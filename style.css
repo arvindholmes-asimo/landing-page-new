@@ -115,6 +115,7 @@ p {
 .nav-right li a {
     list-style-type: none;
 
+
 }
 
 .nav-items {
@@ -380,7 +381,7 @@ span.quote_text {
 .form-box {
     background: #f4f4f4;
     padding: 20px;
-    box-shadow: -6px 6px 8px 0px rgb(255 255 255 / 27%);
+    box-shadow:-6px 6px 8px 0px rgb(36 36 36 / 43%);
     border-radius: 2px;
 }
 
@@ -539,7 +540,7 @@ address {
 }
 
 .followus i {
-    font-size: 20px;
+    font-size: 32px;
 }
 
 
@@ -568,7 +569,7 @@ address {
 }
 
 .brand p {
-    font-size: 8px;
+    font-size: 12px;
     text-align: start;
 }
 
@@ -813,7 +814,7 @@ address {
     }
 
     .followus i {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .icon-flex {
@@ -860,11 +861,6 @@ address {
         width: auto;
     }
 
-    .nav-right a {
-        text-decoration: none;
-        display: block;
-        padding: 8px 16px 8px 0;
-    }
 
     .nav-items {
         display: flex;
