@@ -860,6 +860,9 @@ address {
         flex-direction: row;
         width: auto;
     }
+    .nav-items a{
+        margin-right: 10px;
+    }
 
 
     .nav-items {
