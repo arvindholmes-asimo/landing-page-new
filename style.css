@@ -102,6 +102,9 @@ p {
     margin: 0;
     flex-direction: column;
     width: 100%;
+    background-color:#133469b8;
+    backdrop-filter: blur( 4px );
+
 }
 
 .nav-right a {
@@ -111,23 +114,22 @@ p {
 }
 
 
-
 .nav-right li a {
     list-style-type: none;
-
+    text-decoration: none;
 }
-
-.nav-items {
+.nav-items{
     list-style-type: none;
-    background-color: #ffffff;
 
 }
 
 .nav-items a {
+    list-style-type: none;
     margin: 0;
     padding: 6px 0px;
     text-align: center;
-    color: #000;
+    /* color:#16315c; */
+    color: #fff;
 
 }
 
@@ -163,6 +165,7 @@ p {
 .main-box p {
     margin: 5px auto;
     font-size: 13px;
+    line-height: 1.6;
 }
 
 
@@ -170,9 +173,9 @@ button.btn {
     background: #1affff8c;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    padding: 5px;
-    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 12px 24px;
     margin: 2px 0px;
     border: none;
 }
@@ -386,7 +389,7 @@ span.quote_text {
 .form-box {
     background: #f4f4f4;
     padding: 20px;
-    box-shadow: -6px 6px 8px 0px rgb(255 255 255 / 27%);
+    box-shadow:-6px 6px 8px 0px rgb(36 36 36 / 43%);
     border-radius: 2px;
 }
 
@@ -403,6 +406,7 @@ span.quote_text {
     align-items: center;
     padding: 10px 20px;
     margin: 10px auto;
+    outline: none;
 }
 
 .form-box button {
@@ -426,11 +430,19 @@ span.quote_text {
     color: white;
     font-weight: 300;
     margin: auto;
-    padding: 8px 16px;
+    padding: 16px 32px;
     border: none;
+    font-size: 18px;
     border-radius: 5px;
     display: block;
+    font-weight: bold;
+
     cursor: pointer;
+}
+.submit-btn:hover{
+    color:#41b3e9;
+    background: white;
+    transition: all 0.9s;
 }
 
 /* conclude styles */
@@ -545,7 +557,7 @@ address {
 }
 
 .followus i {
-    font-size: 20px;
+    font-size: 32px;
 }
 
 
@@ -574,10 +586,18 @@ address {
 }
 
 .brand p {
-    font-size: 8px;
+    font-size: 12px;
     text-align: start;
 }
+@media screen and (min-width: 601px){
+    .nav-right{
+        background: transparent ;
+    }
 
+    .nav-items a {
+        color:#16315c;
+}
+}
 
 /* media query768px  */
 @media only screen and (min-width: 768px) {
@@ -604,7 +624,8 @@ address {
     }
 
     .main-box p {
-        font-size: 16px;
+        font-size: 18px;
+       
     }
 
     .main-box hr {
@@ -619,7 +640,9 @@ address {
     .nav-left .company-title {
         font-size: 20px;
     }
-
+    .nav-right{
+        background: transparent ;
+    }
     .form-container {
         width: 50%;
         display: inline-block;
@@ -819,7 +842,7 @@ address {
     }
 
     .followus i {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .icon-flex {
@@ -865,12 +888,10 @@ address {
         flex-direction: row;
         width: auto;
     }
-
-    .nav-right a {
-        text-decoration: none;
-        display: block;
-        padding: 8px 16px 8px 0;
+    .nav-items a{
+        margin-right: 10px;
     }
+
 
     .nav-items {
         display: flex;
