@@ -634,7 +634,7 @@ address {
 
     .hero-container {
         margin: 0px auto;
-        z-index: 2;
+        z-index:2;
     }
 
     .nav-left .company-title {
