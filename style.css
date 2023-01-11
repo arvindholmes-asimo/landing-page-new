@@ -172,8 +172,14 @@ button.btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding: 5px;
+    cursor: pointer;
     margin: 2px 0px;
     border: none;
+}
+button.btn:hover {
+    background: white;
+    color: dodgerblue;
+    transition: all 0.5s;
 }
 
 /* middle block */
@@ -607,7 +613,7 @@ address {
 
     .hero-container {
         margin: 0px auto;
-        z-index: -2;
+        z-index: 2;
     }
 
     .nav-left .company-title {
@@ -762,12 +768,12 @@ address {
         border-radius: 50%;
     }
 
-
+   
     .connectus {
         margin: 0;
     }
      
-        .middle-top-container::before {
+     .middle-top-container::before {
             content: "";
             display: block;
             left: -5%;
@@ -777,7 +783,7 @@ address {
             position: absolute;
             z-index: -2;
             background-color: #4facca17;
-        }
+ }
 
 
     .card::after {
