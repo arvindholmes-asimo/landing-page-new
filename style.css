@@ -12,10 +12,6 @@
     font-weight: 600;
 }
 
-.container-width {
-    margin: auto;
-    width: 80%;
-}
 
 body {
     background: white;
@@ -140,7 +136,6 @@ p {
     text-align: center;
     color: white;
     padding: 40px 0;
-
 }
 
 .main-box h1 {
@@ -634,7 +629,7 @@ address {
 
     .hero-container {
         margin: 0px auto;
-        z-index:2;
+        z-index:0;
     }
 
     .nav-left .company-title {
